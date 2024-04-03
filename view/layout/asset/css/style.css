@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    clear: both;
+}
+header{
+    width: 100%;
+    background-color: green;
+    height: 100px;
+}
+.col1 img{
+    width: 100%;
+    margin-top: 10px;
+}
+.col1{
+    width: 7%;
+    height: 100px;
+}
+.col2{
+    width: 80%;
+}
+.menu{
+    list-style: none;
+    height: 70px;
+}
+ul.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.menu>li>a{
+    display: block;
+    text-decoration: none;
+    padding:0 20px;
+    color: white;
+    font-weight: bolder;
+    padding: 8px 16px;
+}
+ul.menu>li>a:hover{
+    color: rgb(4, 244, 4);
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+nav{
+    width: 100%;
+}
+nav img{
+    width: 100%;
+}
+section{
+    width: 100%;
+    margin-top: 20px;
+}
+.col25{
+    width: 25%;
+    /* border: 1px solid blue; */
+    height: 500px;
+    float: left;
+    padding:0 10px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col25 img{
+    width: 100%;
+    height: 300px;
+}
+.ten{
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 16pt;
+    height: 90px;
+}
+.gia{
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: bolder;
+    color: orangered;
+}
+.dathang{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: green;
+    font-weight: bolder;
+    text-align: center;
+}
+.ddinputso{
+    width: 60px;
+    margin-left: 10px;
+    font-size: 15px; 
+    height: 30px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+form{
+    width: 100%;
+}
+label{
+    margin: 5px;   
+}
+input{
+    padding: 10px;
+    line-height: 15px;
+    width: 100%;
+}
+table{
+    width: 100%;
+    /* border: 1px solid gray; */
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(216, 214, 214);
+}
+td,th {
+    /* border: 1px solid gray;
+    border-collapse: collapse; */
+    text-align: center;
+    line-height: 35px;
+}
+td img{
+    width: 50px;
+}
+.remember
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+    
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+/* Button from Giohang | Call To Action */
+.btnCTA {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+.btnCTA a{
+    text-decoration: none;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: ghostwhite;
+    color: burlywood;
+    transition: 0.3s;
+}
+.btnCTA a:hover{
+    background-color: burlywood;
+    color: ghostwhite;
+    transition: 0.3s;
+}
